@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  width: 600px;
+  flex-direction: row; /*Valor por defecto*/
+  /* flex-direction: row-reverse;*/ /*Valor por defecto inverso*/
+  /* flex-direction: column;*/ /* Apila los elementos en forma de columna */
+  /*flex-direction: column-reverse;*/ /* Apila los elementos en forma de columna inversa*/
+}
+
+.container {
+  margin: auto;
+  background-color: violet;
+  padding: 10px;
+  display: flex;
+  border: solid 10px darkorchid;
+  border-radius: 10px;
+  transition: all 0.5 ease-in-out;
+}
+
+.item-1 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.item-2 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.item-3 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.item-4 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+}

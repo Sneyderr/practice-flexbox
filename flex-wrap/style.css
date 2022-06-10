@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  width: 600px;
+  flex-wrap: nowrap; /*Valor por defecto*/
+  /*flex-wrap: wrap;*/ /*Se acomodan acorde su tamaño, saltando a la siguiente fila*/
+  /*flex-wrap: wrap-reverse;*/ /*Se acomodan acorde su tamaño y se invierten*/
+}
+
+.container {
+  margin: auto;
+  background-color: violet;
+  padding: 10px;
+  display: flex;
+  border: solid 10px darkorchid;
+  border-radius: 10px;
+  transition: all 0.5 ease-in-out;
+}
+
+.item-1 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.item-2 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.item-3 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.item-4 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+}

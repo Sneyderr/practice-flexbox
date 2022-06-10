@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  width: 800px;
+  justify-content: flex-start; /*Alinea el contenido a la izquierda*/
+  /*justify-content: flex-end;*/ /*Alinea el contenido a la derecha*/
+  /*justify-content: center;*/ /*Alinea el contenido al centro*/
+  /*justify-content: space-between;*/ /*Distribuye los elementos en el contenedor*/
+  /*justify-content: space-around;*/ /*Agrega un pequeño espacio entre los costadps del contenedor*/
+  /*justify-content: space-evenly;*/ /*Espacio entre contenedor y elementos, y elemento con elemento, son del mismo tamaño*/
+}
+
+.container {
+  margin: auto;
+  background-color: violet;
+  padding: 10px;
+  display: flex;
+  border: solid 10px darkorchid;
+  border-radius: 10px;
+  transition: all 0.5 ease-in-out;
+}
+
+.item-1 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.item-2 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.item-3 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.item-4 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+}

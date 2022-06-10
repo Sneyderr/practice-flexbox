@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  width: 800px;
+  height: 600px;
+  align-items: flex-start; /*Ubica los elementos en la parte superior*/
+  /*align-items: flex-end;*/ /*Ubica los elementos en la parte inferior*/
+  /*align-items: center;*/ /*Ubica los elementos en el centro verticalmente*/
+  /*align-items: stretch;*/ /*Hace que la altura de los elemntos sea la máxima*/
+  /*align-items: baseline;*/ /*Asociada a la línea base o renglón del texto*/
+}
+
+.container {
+  margin: auto;
+  background-color: violet;
+  padding: 10px;
+  display: flex;
+  border: solid 10px darkorchid;
+  border-radius: 10px;
+  transition: all 0.5 ease-in-out;
+}
+
+.item-1 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+  height: 100px;
+}
+
+.item-2 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+  height: 70px;
+}
+
+.item-3 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+  height: 200px;
+}
+
+.item-4 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+  height: 150px;
+}

@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  width: 600px;
+}
+
+.container {
+  margin: auto;
+  background-color: violet;
+  padding: 10px;
+  display: flex;
+  border: solid 10px darkorchid;
+  border-radius: 10px;
+  transition: all 0.5 ease-in-out;
+}
+
+.item-1 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+
+  order: 1; /*Ordena los elementos a la posición que se le asigne*/
+}
+
+.item-2 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+
+  order: 2; /*Ordena los elementos a la posición que se le asigne*/
+}
+
+.item-3 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+
+  order: 0; /*Ordena los elementos a la posición que se le asigne*/
+}
+
+.item-4 {
+  margin: 5px;
+  background-color: aquamarine;
+  border: solid 6px purple;
+  padding: 10px;
+  border-radius: 10px;
+
+  order: 3; /*Ordena los elementos a la posición que se le asigne*/
+}

@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  width: 400px;
+  height: 600px;
+  flex-flow: row wrap; /*OBLIGACIÓN*/
+
+  /* align-content: flex-start;*/ /*Los elementos se apilan en la parte superior*/
+  /* align-content: flex-end; */ /*Los elementos se apilan en la parte superior*/
+  /* align-content: center; */ /*Los elementos se alinearán verticalmente*/
+  /* align-content: space-between; */ /*Al tener dos filas, una se ubica en la parte superior y la otra en la parte inferior*/
+  /* align-content: space-around; */ /*Agrega espacios entre elementos y contenedor*/
+}
+
+.container {
+  margin: auto;
+  background-color: violet;
+  display: flex;
+  border: solid 10px darkorchid;
+  border-radius: 10px;
+  transition: all 0.5 ease-in-out;
+}
+
+.item-1 {
+  margin: 5px;
+  background-color: aquamarine;
+  padding: 5px;
+  border: solid 6px purple;
+  border-radius: 10px;
+  height: 100px;
+}
+
+.item-2 {
+  margin: 5px;
+  background-color: aquamarine;
+  padding: 5px;
+  border: solid 6px purple;
+  border-radius: 10px;
+  height: 100px;
+}
+
+.item-3 {
+  margin: 5px;
+  background-color: aquamarine;
+  padding: 5px;
+  border: solid 6px purple;
+  border-radius: 10px;
+  height: 100px;
+}
+
+.item-4 {
+  margin: 5px;
+  background-color: aquamarine;
+  padding: 5px;
+  border: solid 6px purple;
+  border-radius: 10px;
+  height: 100px;
+}
+
+.item-5 {
+  margin: 5px;
+  background-color: aquamarine;
+  padding: 5px;
+  border: solid 6px purple;
+  border-radius: 10px;
+  height: 100px;
+}
+
+.item-6 {
+  margin: 5px;
+  background-color: aquamarine;
+  padding: 5px;
+  border: solid 6px purple;
+  border-radius: 10px;
+  height: 100px;
+}
+
+.item-7 {
+  margin: 5px;
+  background-color: aquamarine;
+  padding: 5px;
+  border: solid 6px purple;
+  border-radius: 10px;
+  height: 100px;
+}
